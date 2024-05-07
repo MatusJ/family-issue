@@ -1,4 +1,4 @@
 package family.members;
 
-public class Boy implements BirthAble {
+public class Boy implements BornAble {
 }
