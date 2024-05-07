@@ -18,6 +18,6 @@ public class ExperimentOnBirthExperiment {
 
     private void showOutput() {
         System.out.println("Num of birth experiments: " + this.numOfExperiments);
-        System.out.println("Boys - Girls = " + this.diff);
+        System.out.println("Boys - Girls (Overall)= " + this.diff);
     }
 }
