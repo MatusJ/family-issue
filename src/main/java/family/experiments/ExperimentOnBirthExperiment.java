@@ -11,7 +11,6 @@ public class ExperimentOnBirthExperiment {
 
     public void doExperiment() {
         for (int i = 0; i < numOfExperiments; i++) {
-            BirthExperiment be = new BirthExperiment();
             diff += new BirthExperiment().doExperiment().diffBoysMinusGirls();
         }
         this.showOutput();

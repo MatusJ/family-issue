@@ -36,7 +36,7 @@ public class BirthExperiment {
             } while(fam.lastChildIsBoy());
             families.add(fam);
         }
-        //this.showOutput();
+        this.showOutput();
         return this;
     }
 
@@ -49,5 +49,6 @@ public class BirthExperiment {
         System.out.println("Boys: " + this.boys);
         System.out.println("Girls: " + this.girls);
         System.out.println("Boys - Girls = " + this.diffBoysMinusGirls());
+        System.out.println("----------------");
     }
 }
